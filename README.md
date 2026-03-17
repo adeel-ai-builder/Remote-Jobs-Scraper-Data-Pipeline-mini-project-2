@@ -29,7 +29,9 @@ Salary insights
 ## Key Features
 
 ✔ Automated job scraping using browser automation
+
 ✔ Handles dynamic content (JavaScript rendering)
+
 ✔ Extracts key job attributes:
 
 Job Title
@@ -43,6 +45,7 @@ Job Link
 Source
 
 ✔ Data cleaning and duplicate removal
+
 ✔ Stores data in:
 
 CSV file
@@ -71,14 +74,17 @@ job-scraper-pipeline/
 ├── data/
 
    └── professional_jobs.csv
+   
 │
 ├── database/
 
    └── jobs_database.db
+   
 │
 ├── scripts/
 
    └── job_scraper.py
+   
 │
 ├── README.md
 
